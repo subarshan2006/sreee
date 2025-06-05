@@ -14,7 +14,7 @@
       -webkit-background-clip: text;
       /* -webkit-text-fill-color: transparent; */
     }
-    
+     
     .typewriter-container {
       display: flex;
       justify-content: center;
@@ -247,6 +247,7 @@
     0% { transform: translateX(0); }
     100% { transform: translateX(calc(-350px * 6)); } /* Move by half the content */
 }
+ 
 
 @media (max-width: 768px) {
     .testimonial-item {
@@ -431,6 +432,8 @@
         }
         .portfolio-h2{
             text-decoration: none;
+            text-align: center;
+            justify-content: center;
             font-weight: 700;
             color: #5D4037;
         }
@@ -474,8 +477,7 @@
             text-decoration: underline none;
         }
         .portfolio-overlay h3 {
-            font-size: 1.5rem;
-            margin-bottom: 0.5rem;
+            text-align: center;
             transform: translateY(20px);
             transition: transform 0.5s ease;
         }
@@ -843,7 +845,7 @@
                 opacity: 1;
             }
         }
-
+      
         /* Responsive Styles */
         @media (max-width: 768px) {
             .menu-toggle {
